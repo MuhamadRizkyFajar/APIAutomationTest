@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.axiatadigitallabs.apitest.TestAPI_PUT_DELETE">
+      <class name="com.axiatadigitallabs.apitest.TestAPI_ALL">
         <methods>
-          <include name="test01_put"/>
+          <include name="test01_delete"/>
         </methods>
-      </class> <!-- com.axiatadigitallabs.apitest.TestAPI_PUT_DELETE -->
+      </class> <!-- com.axiatadigitallabs.apitest.TestAPI_ALL -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
