@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-04T19:52:43 WIB" name="Default suite" finished-at="2022-02-04T19:53:09 WIB" duration-ms="25953">
+    <groups>
+    </groups>
+    <test started-at="2022-02-04T19:52:43 WIB" name="Default test" finished-at="2022-02-04T19:53:09 WIB" duration-ms="25953">
+      <class name="com.axiatadigitallabs.apitest.TestAPI_ALL">
+        <test-method signature="test01_post()[pri:0, instance:com.axiatadigitallabs.apitest.TestAPI_ALL@4313f5bc]" started-at="2022-02-04T19:52:43 WIB" name="test01_post" finished-at="2022-02-04T19:52:46 WIB" duration-ms="2746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_post -->
+        <test-method signature="test_01_get_b()[pri:1, instance:com.axiatadigitallabs.apitest.TestAPI_ALL@4313f5bc]" started-at="2022-02-04T19:52:46 WIB" name="test_01_get_b" finished-at="2022-02-04T19:52:47 WIB" duration-ms="1297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_01_get_b -->
+        <test-method signature="test01_put()[pri:2, instance:com.axiatadigitallabs.apitest.TestAPI_ALL@4313f5bc]" started-at="2022-02-04T19:52:47 WIB" name="test01_put" finished-at="2022-02-04T19:52:59 WIB" duration-ms="12292" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_put -->
+        <test-method signature="test01_delete()[pri:3, instance:com.axiatadigitallabs.apitest.TestAPI_ALL@4313f5bc]" started-at="2022-02-04T19:52:59 WIB" name="test01_delete" finished-at="2022-02-04T19:53:09 WIB" duration-ms="9556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01_delete -->
+      </class> <!-- com.axiatadigitallabs.apitest.TestAPI_ALL -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
