@@ -44,6 +44,7 @@ public class TestAPI_ALL {
 		.post(endpoint) //POST
 		.then()
 		.statusCode(201)
+		.body("data.name", equalTo(name))
 		.log().all();
 	}
 	
@@ -76,8 +77,11 @@ public class TestAPI_ALL {
 		
 		JSONObject request = new JSONObject();
 		
-		request.put("gender", "female");
-		request.put("status", "active");
+		String updategender="female";
+		String updatestatus="active";
+		
+		request.put("gender", updategender);
+		request.put("status", updatestatus);
 		
 		String id =id_user();
 		
@@ -91,10 +95,10 @@ public class TestAPI_ALL {
 		.accept(ContentType.JSON)
 		.body(request.toJSONString())
 		.when()
-		.put(endpoint.concat(id)) //PUT
+		.patch(endpoint.concat(id)) //PUT
 		.then()
 		.statusCode(200)
-		.body("data.gender[0]", equalTo("f"))
+		.body("data.gender", equalTo(updategender))
 		.log().all();
 	}
 	
